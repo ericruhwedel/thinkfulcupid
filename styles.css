@@ -1,3 +1,5 @@
+/* -------  General Styles ------- */
+
 html,
 body {
   overflow-x: hidden;
@@ -39,6 +41,8 @@ main img {
   width: 100px;
 }
 
+/* ---  Groups & Items --- */
+
 .group {
   display: flex;
   flex-direction: column;
@@ -52,6 +56,8 @@ main img {
 .item-double {
   flex: 2;
 }
+
+/* -------  Navigation ------- */
 
 header {
   background-color: #83092e;
@@ -92,6 +98,7 @@ header nav ul li a:hover {
   text-decoration: none;
 }
 
+/* -------  Join Form ------- */
 #form-img {
   width: 100%;
 }
@@ -127,23 +134,31 @@ form button {
   width: 100%;
 }
 
+/* ------ About Image ------ */
+
 .about-img {
   width: 100%;
   margin-bottom: 25px;
 }
 
+/* ------ Download Image -------*/
 .download-img {
   width: 100%;
 }
+
+/* ------ Blog Images ------*/
 
 .alternate-background img {
   margin-top: 20px;
   width: 100%;
 }
 
+/* ----- H2 ----- */
 .alternate-background h2 {
   margin-top: 10px;
 }
+
+/* -------  Footer ------- */
 
 footer {
   background-color: #83092e;
@@ -155,7 +170,7 @@ footer p {
   padding: 20px;
 }
 
-/* Media Query */
+/* -------  Media Query ------- */
 @media all and (min-width: 480px) {
   .logo {
     font-size: 45px;
